@@ -1,0 +1,25 @@
+{
+    "name": "jumppeak/vitals",
+    "description": "Health Check Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jumppeak\\Vitals\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eslam Mousa"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jumppeak\\Vitals\\VitalsServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
